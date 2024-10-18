@@ -4,7 +4,9 @@ public class Fibonacci {
     
     public static int fibonacci (int num) {
 
-        if(num < 2) {
+        if(num == 0) {
+            return 0;
+        } else if(num == 1) {
             return 1;
         }
 
