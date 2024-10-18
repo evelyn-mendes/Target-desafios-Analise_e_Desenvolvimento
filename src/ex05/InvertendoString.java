@@ -2,6 +2,17 @@ package ex05;
 
 import java.util.Scanner;
 
+/**
+ * <h1> Invertendo uma String </h1>
+ * 
+ * <p> Programa que recebe um valor do tipo String, e o inverte. </p>
+ * 
+ * <h4> Language: Java </h4>
+ * 
+ * @author Evelyn Mendes
+ * @version 1.0
+*/
+
 public class InvertendoString {
     
     public static void main(String[] args) {
@@ -13,7 +24,7 @@ public class InvertendoString {
 
         String invertida = "";
 
-        for(int i = palavra.length(); i >= 0; i--) {
+        for(int i = palavra.length() - 1; i >= 0; i--) {
 
             invertida += palavra.charAt(i);
         }
